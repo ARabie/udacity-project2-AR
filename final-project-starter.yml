@@ -282,7 +282,7 @@ Resources:
           apt-get install apache2 -y
           systemctl start apache2.service
           cd /var/www/html
-          echo "it works! Udagram, Udacity!" > index.html        
+          echo "it works! Udagram, Udacity" > index.html        
       ImageId: !Sub "ami-${ImgID}"
       # KeyName: !Ref WEBAPPKEY
       SecurityGroups:
